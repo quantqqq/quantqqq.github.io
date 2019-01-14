@@ -1,0 +1,15 @@
+<div class="scrollable">
+<div class="scrollable-content">
+<section class="section container-fluid">
+
+<ul>
+<li ng-repeat="news in newsList">
+	<a href="{{ news.link }}" target="_blank">{{ news.title }}</a> 
+	<span class="news-desc">{{ news.desc }} {{ news.desc == "" ? "" : "|" }}</span> 
+	<span class="news-date">{{ news.date }}</span>
+</li>
+</ul>
+
+</section>
+</div>
+</div>
