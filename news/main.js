@@ -20,12 +20,13 @@ angular.module('News.controllers.News', [])
 
     var finishedUrlNum = 0;
 
+    var parser = new RSSParser();
     for(var i = 0, len = urls.length; i < len; i++){
       var url = urls[i];
-      url = 'https://api.allorigins.ml/get?method=raw&url=' + encodeURIComponent(url) + '&callback=?';
-
-      var parser = new RSSParser();
-      parser.parseURL(url, function(err, feed) {
+      url = 'https://api.allorigins.ml/get?url=' + encodeURIComponent(url);
+      $.getJSON(url, function(data){
+        parser.parseString(data.contents, function(err, feed){
+      
         finishedUrlNum++;
 
         //add to scope
@@ -62,7 +63,7 @@ angular.module('News.controllers.News', [])
         //sort
         if(needSort){
           scope.newsList = _.sortBy(scope.newsList, function(news){
-            return -Sugar.Date(news.date);
+            return -Sugar.Date(news.date).now;
           });
         }
 
@@ -80,6 +81,8 @@ angular.module('News.controllers.News', [])
         }
 
         scope.$apply();
+
+        });
       });
 
 
