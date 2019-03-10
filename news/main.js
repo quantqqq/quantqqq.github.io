@@ -23,9 +23,8 @@ angular.module('News.controllers.News', [])
     var parser = new RSSParser();
     for(var i = 0, len = urls.length; i < len; i++){
       var url = urls[i];
-      url = 'https://api.allorigins.ml/get?url=' + encodeURIComponent(url);
-      $.getJSON(url, function(data){
-        parser.parseString(data.contents, function(err, feed){
+      $.get({url:url, dataType:'text', success:function(data){
+        parser.parseString(data, function(err, feed){
       
         finishedUrlNum++;
 
@@ -37,7 +36,7 @@ angular.module('News.controllers.News', [])
 
           var date = entry.pubDate ? entry.pubDate : entry.published;
 
-          var desc = setting.needShowDesc ? entry.description : '';
+          var desc = setting.needShowDesc ? entry.contentSnippet : '';
 
           var title = (entry.title && typeof entry.title === 'object') ? entry.title.content : entry.title;
           if(setting.removedTextInTitle){
@@ -83,7 +82,7 @@ angular.module('News.controllers.News', [])
         scope.$apply();
 
         });
-      });
+      }});
 
 
     }

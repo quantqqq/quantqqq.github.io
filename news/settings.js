@@ -9,7 +9,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://tinhte.vn/rss',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9001',
             ],
         },
         needSort: false,
@@ -21,7 +21,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?6',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=6',
             ],
         },
         needSort: false,
@@ -33,7 +33,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?1',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=1',
             ],
         },
         needSort: false,
@@ -45,7 +45,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?2',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=2',
             ],
         },
         needSort: false,
@@ -57,7 +57,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://gamek.vn/trang-chu.rss',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9002',
             ],
         },
         needSort: false,
@@ -69,7 +69,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?5',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=5',
             ],
         },
         needSort: false,
@@ -81,7 +81,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://www.hiepsibaotap.com/feed/',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9003',
             ],
         },
         needSort: false,
@@ -93,7 +93,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?8'
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=8'
             ],
         },
         needSort: false,
@@ -105,7 +105,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://feeds.feedburner.com/DroidGamers',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9004'
             ],
         },
         needSort: false,
@@ -117,7 +117,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://vnexpress.net/rss/tin-moi-nhat.rss',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9005'
             ],
         },
         needSort: true,
@@ -129,7 +129,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://feeds.feedburner.com/TheHackersNews',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9006'
             ],
         },
         needSort: false,
@@ -141,7 +141,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://github-trends.ryotarai.info/rss/github_trends_all_daily.rss',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9007'
             ],
         },
         needSort: false,
@@ -155,7 +155,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://feeds.feedburner.com/blogspot/hsDu',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9008'
             ],
         },
         needSort: false,
@@ -167,7 +167,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://feeds.feedburner.com/GDBcode',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9009'
             ],
         },
         needSort: false,
@@ -179,7 +179,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://www.blog.google/rss/',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9010'
             ],
         },
         needSort: false,
@@ -191,7 +191,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://blogs.unity3d.com/feed/',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9011'
             ],
         },
         needSort: false,
@@ -203,7 +203,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://www.raywenderlich.com/feed',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9012'
             ],
         },
         needSort: false,
@@ -215,7 +215,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://www.smashingmagazine.com/feed/',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9013'
             ],
         },
         needSort: false,
@@ -227,7 +227,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://feeds.feedblitz.com/scotch_io&x=1',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9014'
             ],
         },
         needSort: false,
@@ -239,7 +239,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://code.tutsplus.com/posts.atom',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9015'
             ],
         },
         needSort: false,
@@ -251,7 +251,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://us2.campaign-archive1.com/feed?u=887caf4f48db76fd91e20a06d&id=4eb677ad19',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9016'
             ],
         },
         needSort: false,
@@ -263,7 +263,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://www.pcgamesn.com/mainrss.xml',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9017'
             ],
         },
         needSort: false,
@@ -275,7 +275,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://www.pocketgamer.biz/rss/',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9018'
             ],
         },
         needSort: false,
@@ -287,7 +287,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://feeds.feedburner.com/GamasutraNews',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9019'
             ],
         },
         needSort: false,
@@ -299,7 +299,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://cherrytree.fr/feed/',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9020'
             ],
         },
         needSort: false,
@@ -311,61 +311,61 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'http://dangbong.xyz/feed/',
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9021'
             ],
         },
         needSort: false,
         needRemoveOld: false,
     },
-    {
-        id: 'cafebiz',
-        name: 'cafebiz.vn',
-        type: 'rss',
-        params: {
-            urls: [
-                'http://cafebiz.vn/thoi-su.rss',
-                'http://cafebiz.vn/kinh-te-vi-mo.rss',
-                'http://cafebiz.vn/cau-chuyen-kinh-doanh.rss',
-                'http://cafebiz.vn/cong-nghe.rss',
-                'http://cafebiz.vn/song.rss',
-            ],
-        },
-        needSort: true,
-        needRemoveOld: true,
-    },
-    {
-        id: 'clashroyalearena',
-        name: 'clashroyalearena.com',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://clashroyalearena.com/feed',
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
-    {
-        id: 'trumpsc',
-        name: 'youbute.com/user/trumpsc',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://www.youtube.com/feeds/videos.xml?user=trumpsc',
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
+    // {
+    //     id: 'cafebiz',
+    //     name: 'cafebiz.vn',
+    //     type: 'rss',
+    //     params: {
+    //         urls: [
+    //             'http://cafebiz.vn/thoi-su.rss',
+    //             'http://cafebiz.vn/kinh-te-vi-mo.rss',
+    //             'http://cafebiz.vn/cau-chuyen-kinh-doanh.rss',
+    //             'http://cafebiz.vn/cong-nghe.rss',
+    //             'http://cafebiz.vn/song.rss',
+    //         ],
+    //     },
+    //     needSort: true,
+    //     needRemoveOld: true,
+    // },
+    // {
+    //     id: 'clashroyalearena',
+    //     name: 'clashroyalearena.com',
+    //     type: 'rss',
+    //     params: {
+    //         urls: [
+    //             'https://clashroyalearena.com/feed',
+    //         ],
+    //     },
+    //     needSort: false,
+    //     needRemoveOld: false,
+    // },
+    // {
+    //     id: 'trumpsc',
+    //     name: 'youbute.com/user/trumpsc',
+    //     type: 'rss',
+    //     params: {
+    //         urls: [
+    //             'https://www.youtube.com/feeds/videos.xml?user=trumpsc',
+    //         ],
+    //     },
+    //     needSort: false,
+    //     needRemoveOld: false,
+    // },
     {
         id: 'truyentranhtuan',
         name: 'truyentranhtuan.com',
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?4001',//hunter x hunter
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?4002',//one peice
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?4003',//legendary moonlight sculptor
+                //'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4001',//hunter x hunter
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4002',//one peice
+                //'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4003',//legendary moonlight sculptor
             ],
         },
         needSort: false,
