@@ -39,18 +39,18 @@ angular.module('News.controllers.Main', [])
         needSort: false,
         needRemoveOld: false,
     },
-    {
-        id: 'kipalog-links',
-        name: 'news.kipalog.com',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=2',
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
+    // {
+    //     id: 'kipalog-links',
+    //     name: 'news.kipalog.com',
+    //     type: 'rss',
+    //     params: {
+    //         urls: [
+    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=2',
+    //         ],
+    //     },
+    //     needSort: false,
+    //     needRemoveOld: false,
+    // },
     {
         id: 'gamek',
         name: 'gamek.vn',
@@ -63,30 +63,30 @@ angular.module('News.controllers.Main', [])
         needSort: false,
         needRemoveOld: true,
     },
-    {
-        id: 'lienquan',
-        name: 'lienquan.garena.vn',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=5',
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
-    {
-        id: 'hiepsibaotap',
-        name: 'hiepsibaotap.com',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9003',
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
+    // {
+    //     id: 'lienquan',
+    //     name: 'lienquan.garena.vn',
+    //     type: 'rss',
+    //     params: {
+    //         urls: [
+    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=5',
+    //         ],
+    //     },
+    //     needSort: false,
+    //     needRemoveOld: false,
+    // },
+    // {
+    //     id: 'hiepsibaotap',
+    //     name: 'hiepsibaotap.com',
+    //     type: 'rss',
+    //     params: {
+    //         urls: [
+    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9003',
+    //         ],
+    //     },
+    //     needSort: false,
+    //     needRemoveOld: false,
+    // },
     {
         id: 'gameworld',
         name: 'gameworld.vn',
@@ -111,30 +111,18 @@ angular.module('News.controllers.Main', [])
         needSort: false,
         needRemoveOld: false,
     },
-    {
-        id: 'vnexpress-trangchu',
-        name: 'vnexpress.net',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9005'
-            ],
-        },
-        needSort: true,
-        needRemoveOld: false,
-    },
-    {
-        id: 'thehackernews',
-        name: 'thehackernews.com',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9006'
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
+    // {
+    //     id: 'vnexpress-trangchu',
+    //     name: 'vnexpress.net',
+    //     type: 'rss',
+    //     params: {
+    //         urls: [
+    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9005'
+    //         ],
+    //     },
+    //     needSort: true,
+    //     needRemoveOld: false,
+    // },
     {
         id: 'github-trends',
         name: 'github-trends.ryotarai.info',
@@ -222,78 +210,6 @@ angular.module('News.controllers.Main', [])
         needRemoveOld: false,
     },
     {
-        id: 'scotch',
-        name: 'scotch.io',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9014'
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
-    {
-        id: 'tutsplus',
-        name: 'tutsplus.com',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9015'
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
-    {
-        id: 'androidweekly',
-        name: 'androidweekly.net',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9016'
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
-    {
-        id: 'pcgamesn',
-        name: 'pcgamesn.com',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9017'
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
-    {
-        id: 'pocketgamer',
-        name: 'pocketgamer.biz',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9018'
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
-    {
-        id: 'gamasutra',
-        name: 'gamasutra.com',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9019'
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-    },
-    {
         id: 'cherrytree',
         name: 'cherrytree.fr',
         type: 'rss',
@@ -364,8 +280,105 @@ angular.module('News.controllers.Main', [])
         params: {
             urls: [
                 //'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4001',//hunter x hunter
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4002',//one peice
-                //'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4003',//legendary moonlight sculptor
+                //'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4002',//legendary moonlight sculptor
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4003',//one peice
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4004',//solo leveling
+            ],
+        },
+        needSort: false,
+        needRemoveOld: false,
+    },
+    {
+        id: 'voz',
+        name: 'voz.vn',
+        type: 'rss',
+        params: {
+            urls: [
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9022',
+            ],
+        },
+        needSort: false,
+        needRemoveOld: false,
+    },
+    {
+        id: 'thehackernews',
+        name: 'thehackernews.com',
+        type: 'rss',
+        params: {
+            urls: [
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9006'
+            ],
+        },
+        needSort: false,
+        needRemoveOld: false,
+    },
+     {
+        id: 'scotch',
+        name: 'scotch.io',
+        type: 'rss',
+        params: {
+            urls: [
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9014'
+            ],
+        },
+        needSort: false,
+        needRemoveOld: false,
+    },
+    {
+        id: 'tutsplus',
+        name: 'tutsplus.com',
+        type: 'rss',
+        params: {
+            urls: [
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9015'
+            ],
+        },
+        needSort: false,
+        needRemoveOld: false,
+    },
+    {
+        id: 'androidweekly',
+        name: 'androidweekly.net',
+        type: 'rss',
+        params: {
+            urls: [
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9016'
+            ],
+        },
+        needSort: false,
+        needRemoveOld: false,
+    },
+    // {
+    //     id: 'pcgamesn',
+    //     name: 'pcgamesn.com',
+    //     type: 'rss',
+    //     params: {
+    //         urls: [
+    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9017'
+    //         ],
+    //     },
+    //     needSort: false,
+    //     needRemoveOld: false,
+    // },
+    {
+        id: 'pocketgamer',
+        name: 'pocketgamer.biz',
+        type: 'rss',
+        params: {
+            urls: [
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9018'
+            ],
+        },
+        needSort: false,
+        needRemoveOld: false,
+    },
+    {
+        id: 'gamasutra',
+        name: 'gamasutra.com',
+        type: 'rss',
+        params: {
+            urls: [
+                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9019'
             ],
         },
         needSort: false,
