@@ -96,4 +96,44 @@ angular.module('News.controllers.News', [])
         return;
   }
 
-}]);
+}])
+
+.controller('PageController', ['$scope', '$routeParams', function($scope, $routeParams){
+
+  $scope.pageId = $routeParams.pageId;
+
+  var setting = _.find($scope.NEWS_SETTING, function(news){return news.id == $scope.pageId;});
+
+  $scope.pageSetting = setting;
+  $scope.pageUrl = setting.params.url;
+}])  
+
+.filter('trustThisUrl', ["$sce", function ($sce) {
+  return function (val) {
+    return $sce.trustAsResourceUrl(val);
+  };
+}])
+
+.filter('sidebarLink', ["$sce", function ($sce) {
+  return function (val, scope) {
+    if(val.type == 'direct'){
+      return val.params.url;
+    }else if(val.type == 'page'){
+      return "#/page/"+val.id+"?d="+scope.date;
+    }else{
+      return "#/news/"+val.id+"?d="+scope.date;
+    }
+  };
+}])
+
+.filter('sidebarLinkTarget', ["$sce", function ($sce) {
+  return function (val) {
+    if(val.type == 'direct'){
+      return '_blank';
+    }else{
+      return '';
+    }
+  };
+}])
+
+;

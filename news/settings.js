@@ -123,20 +123,20 @@ angular.module('News.controllers.Main', [])
     //     needSort: true,
     //     needRemoveOld: false,
     // },
-    {
-        id: 'github-trends',
-        name: 'github-trends.ryotarai.info',
-        type: 'rss',
-        params: {
-            urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9007'
-            ],
-        },
-        needSort: false,
-        needRemoveOld: false,
-        needShowDesc: true,
-        removedTextInTitle: ' - All languages - Daily',
-    },
+    // {
+    //     id: 'github-trends',
+    //     name: 'github-trends.ryotarai.info',
+    //     type: 'rss',
+    //     params: {
+    //         urls: [
+    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9007'
+    //         ],
+    //     },
+    //     needSort: false,
+    //     needRemoveOld: false,
+    //     needShowDesc: true,
+    //     removedTextInTitle: ' - All languages - Daily',
+    // },
     {
         id: 'android-developers',
         name: 'android-developers.blogspot.com',
@@ -383,6 +383,32 @@ angular.module('News.controllers.Main', [])
         },
         needSort: false,
         needRemoveOld: false,
+    },
+
+    // {
+    //     id: 'testpageId',
+    //     name: 'testpageName',
+    //     type: 'page',
+    //     params: {
+    //         url: 'https://quantqqq.github.io/',
+    //     },
+    // },
+
+    {
+        id: 'github.com/trending',
+        name: 'github.com/trending',
+        type: 'direct',
+        params: {
+            url: 'https://github.com/trending',
+        },
+    },
+    {
+        id: 'facebook.com/saved',
+        name: 'facebook.com/saved',
+        type: 'direct',
+        params: {
+            url: 'https://www.facebook.com/saved/',
+        },
     },
   ];
 

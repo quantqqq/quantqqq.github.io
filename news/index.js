@@ -38,4 +38,9 @@ app.config(function($routeProvider) {
     templateUrl:'news.html',
     reloadOnSearch: false,
   });
+  $routeProvider.when('/page/:pageId', {
+    controller: 'PageController',
+    templateUrl:'page.html',
+    reloadOnSearch: false,
+  });
 });
