@@ -9,7 +9,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9001',
+                'https://news.quantq.now.sh/api/rss.js?id=9001',
             ],
         },
         needSort: false,
@@ -21,7 +21,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=6',
+                'https://news.quantq.now.sh/api/rss.js?id=6',
             ],
         },
         needSort: false,
@@ -33,7 +33,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=1',
+                'https://news.quantq.now.sh/api/rss.js?id=1',
             ],
         },
         needSort: false,
@@ -45,7 +45,7 @@ angular.module('News.controllers.Main', [])
     //     type: 'rss',
     //     params: {
     //         urls: [
-    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=2',
+    //             'https://news.quantq.now.sh/api/rss.js?id=2',
     //         ],
     //     },
     //     needSort: false,
@@ -57,7 +57,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9002',
+                'https://news.quantq.now.sh/api/rss.js?id=9002',
             ],
         },
         needSort: false,
@@ -69,7 +69,7 @@ angular.module('News.controllers.Main', [])
     //     type: 'rss',
     //     params: {
     //         urls: [
-    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=5',
+    //             'https://news.quantq.now.sh/api/rss.js?id=5',
     //         ],
     //     },
     //     needSort: false,
@@ -81,7 +81,7 @@ angular.module('News.controllers.Main', [])
     //     type: 'rss',
     //     params: {
     //         urls: [
-    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9003',
+    //             'https://news.quantq.now.sh/api/rss.js?id=9003',
     //         ],
     //     },
     //     needSort: false,
@@ -93,7 +93,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=8'
+                'https://news.quantq.now.sh/api/rss.js?id=8'
             ],
         },
         needSort: false,
@@ -105,7 +105,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9004'
+                'https://news.quantq.now.sh/api/rss.js?id=9004'
             ],
         },
         needSort: false,
@@ -117,7 +117,7 @@ angular.module('News.controllers.Main', [])
     //     type: 'rss',
     //     params: {
     //         urls: [
-    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9005'
+    //             'https://news.quantq.now.sh/api/rss.js?id=9005'
     //         ],
     //     },
     //     needSort: true,
@@ -129,7 +129,7 @@ angular.module('News.controllers.Main', [])
     //     type: 'rss',
     //     params: {
     //         urls: [
-    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9007'
+    //             'https://news.quantq.now.sh/api/rss.js?id=9007'
     //         ],
     //     },
     //     needSort: false,
@@ -143,7 +143,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9008'
+                'https://news.quantq.now.sh/api/rss.js?id=9008'
             ],
         },
         needSort: false,
@@ -155,7 +155,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9009'
+                'https://news.quantq.now.sh/api/rss.js?id=9009'
             ],
         },
         needSort: false,
@@ -167,7 +167,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9010'
+                'https://news.quantq.now.sh/api/rss.js?id=9010'
             ],
         },
         needSort: false,
@@ -179,7 +179,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9011'
+                'https://news.quantq.now.sh/api/rss.js?id=9011'
             ],
         },
         needSort: false,
@@ -191,7 +191,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9012'
+                'https://news.quantq.now.sh/api/rss.js?id=9012'
             ],
         },
         needSort: false,
@@ -203,7 +203,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9013'
+                'https://news.quantq.now.sh/api/rss.js?id=9013'
             ],
         },
         needSort: false,
@@ -215,7 +215,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9020'
+                'https://news.quantq.now.sh/api/rss.js?id=9020'
             ],
         },
         needSort: false,
@@ -227,7 +227,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9021'
+                'https://news.quantq.now.sh/api/rss.js?id=9021'
             ],
         },
         needSort: false,
@@ -279,10 +279,10 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                //'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4001',//hunter x hunter
-                //'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4002',//legendary moonlight sculptor
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4003',//one peice
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=4004',//solo leveling
+                //'https://news.quantq.now.sh/api/rss.js?id=4001',//hunter x hunter
+                //'https://news.quantq.now.sh/api/rss.js?id=4002',//legendary moonlight sculptor
+                'https://news.quantq.now.sh/api/rss.js?id=4003',//one peice
+                'https://news.quantq.now.sh/api/rss.js?id=4004',//solo leveling
             ],
         },
         needSort: false,
@@ -301,12 +301,24 @@ angular.module('News.controllers.Main', [])
         needRemoveOld: false,
     },
     {
+        id: 'kenh14',
+        name: 'kenh14.vn',
+        type: 'rss',
+        params: {
+            urls: [
+                'https://news.quantq.now.sh/api/rss.js?id=10',
+            ],
+        },
+        needSort: false,
+        needRemoveOld: true,
+    },
+    {
         id: 'thehackernews',
         name: 'thehackernews.com',
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9006'
+                'https://news.quantq.now.sh/api/rss.js?id=9006'
             ],
         },
         needSort: false,
@@ -318,7 +330,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9014'
+                'https://news.quantq.now.sh/api/rss.js?id=9014'
             ],
         },
         needSort: false,
@@ -342,7 +354,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9016'
+                'https://news.quantq.now.sh/api/rss.js?id=9016'
             ],
         },
         needSort: false,
@@ -354,7 +366,7 @@ angular.module('News.controllers.Main', [])
     //     type: 'rss',
     //     params: {
     //         urls: [
-    //             'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9017'
+    //             'https://news.quantq.now.sh/api/rss.js?id=9017'
     //         ],
     //     },
     //     needSort: false,
@@ -366,7 +378,7 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9018'
+                'https://news.quantq.now.sh/api/rss.js?id=9018'
             ],
         },
         needSort: false,
@@ -378,12 +390,22 @@ angular.module('News.controllers.Main', [])
         type: 'rss',
         params: {
             urls: [
-                'https://script.google.com/macros/s/AKfycbw6_xi4hXbhy-BxM1DDuVRfjfYlghebmV8BLGcsFAR5jpIUW1w/exec?id=9019'
+                'https://news.quantq.now.sh/api/rss.js?id=9019'
             ],
         },
         needSort: false,
         needRemoveOld: false,
     },
+    // {
+    //     id: 'programmingwithmosh',
+    //     name: 'programmingwithmosh.com',
+    //     type: 'direct',
+    //     params: {
+    //         url: 'https://programmingwithmosh.com/',
+    //     },
+    //     needSort: false,
+    //     needRemoveOld: false,
+    // },
 
     // {
     //     id: 'testpageId',
